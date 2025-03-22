@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.chat-box {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.dark {
+  background-color: #1a202c;
+  color: #ffffff;
+}
+
+.dark .navbar {
+  background-color: #2d3748;
+}
+
+.dark .card {
+  background-color: #2d3748;
+  color: #ffffff;
+}
